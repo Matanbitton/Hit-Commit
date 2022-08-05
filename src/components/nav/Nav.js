@@ -1,5 +1,5 @@
 import React from "react";
-import NavButtons from "./NavButtons";
+import Button from "./Button";
 import logo from "../../assets/logo.png";
 import user from "../../assets/user.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,7 +10,11 @@ export default function Nav() {
       <img className="logo" src={logo} alt=""></img>
       <div className="temp">
         <input placeholder="Search"></input>
-        <NavButtons />
+
+        <Button text="Pull requests" />
+        <Button text="Issues" />
+        <Button text="Marketplace" />
+        <Button text="Explore" />
       </div>
 
       <div className="icons">

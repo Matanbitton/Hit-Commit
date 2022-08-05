@@ -8,14 +8,27 @@ import {
   faBookOpen,
   faShield,
   faChartLine,
+  faThumbTack,
+  faEye,
 } from "@fortawesome/free-solid-svg-icons";
 import Repo from "./Repo";
+import RepoButton from "./RepoButton";
 import Tab from "./Tab";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
 
 export default function UserInfo() {
   return (
     <div className="user-info-section">
-      <Repo />;
+      <Repo />
+      <div className="repo-buttons">
+        <RepoButton title="Pin" icon={<FontAwesomeIcon icon={faThumbTack} />} />
+        <RepoButton title="Unwatch " icon={<FontAwesomeIcon icon={faEye} />} />
+        <RepoButton
+          title="Fork"
+          icon={<FontAwesomeIcon icon={faShareNodes} />}
+        />
+        <RepoButton title="Star" icon={<FontAwesomeIcon icon={faStar} />} />
+      </div>
       <div className="project-nav">
         <Tab title="Code" icon={<FontAwesomeIcon icon={faCode} />} />
         <Tab title="Issues" icon={<FontAwesomeIcon icon={faCircleDot} />} />
@@ -23,6 +36,7 @@ export default function UserInfo() {
           title="Pull requests"
           icon={<FontAwesomeIcon icon={faShareNodes} />}
         />
+
         <Tab title="Actions" icon={<FontAwesomeIcon icon={faPlayCircle} />} />
         <Tab title="Projects" icon={<FontAwesomeIcon icon={faGrip} />} />
         <Tab title="Wiki" icon={<FontAwesomeIcon icon={faBookOpen} />} />

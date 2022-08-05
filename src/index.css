@@ -7,7 +7,7 @@ body {
   --button-color: #484f58;
   --nav-color: #161b22;
   --repo-color: #58a6ff;
-  --dev-name-color: #1158c7;
+  --dev-name-color: #3e85f8;
   background-color: #0d1117;
 }
 
@@ -74,4 +74,90 @@ body {
 .profile-arrow {
   font-size: 10px;
   transform: translateX(-7px);
+}
+
+.repo-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  padding: 5px;
+  margin-left: 20px;
+}
+.dev-name {
+  font-size: 18px;
+  color: #58a6ff;
+}
+.repo-name {
+  font-size: 20px;
+  color: var(--repo-color);
+  transform: translateY(-2px);
+}
+.icon-computer,
+.icon-slash {
+  color: #8b949e;
+}
+.icon-slash {
+  font-size: 20px;
+}
+.repo-privacy {
+  color: #8b949e;
+  border-radius: 1em;
+  border: 1px solid #363a3f;
+  font-size: 12px;
+  padding: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+  transform: translateY(-2px);
+}
+.project-nav {
+  grid-area: 2 / 1 / 3 / 3;
+  align-self: center;
+  justify-self: start;
+
+  margin-left: 20px;
+  display: flex;
+  gap: 8px;
+}
+.tab-button {
+  font-size: 15px;
+  background-color: transparent;
+  color: #8b949e;
+  border: none;
+}
+.project-nav :first-child > button {
+  color: rgb(197, 192, 192);
+  font-weight: bold;
+  border-bottom: 2px solid #f78166;
+  padding-bottom: 18px;
+}
+.repo-button {
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+  border: 1px solid #44494e;
+  margin: none;
+  padding: 5px 15px 5px 15px;
+  color: #aebbc9;
+  font-size: 14px;
+  background-color: #21262d;
+}
+.repo-button > p {
+  margin: 0;
+  padding: 0;
+}
+.repo-buttons {
+  margin-right: 30px;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  gap: 10px;
+}
+
+.user-info-section {
+  border-bottom: 1px solid #21262d;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
 }
