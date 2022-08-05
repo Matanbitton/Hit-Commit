@@ -115,22 +115,32 @@ body {
   grid-area: 2 / 1 / 3 / 3;
   align-self: center;
   justify-self: start;
-
   margin-left: 20px;
   display: flex;
-  gap: 8px;
+  gap: 10px;
 }
 .tab-button {
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
   font-size: 15px;
   background-color: transparent;
   color: #8b949e;
   border: none;
 }
+.tab-button:hover {
+  background-color: #2a2d30;
+  cursor: pointer;
+}
 .project-nav :first-child > button {
   color: rgb(197, 192, 192);
   font-weight: bold;
   border-bottom: 2px solid #f78166;
-  padding-bottom: 18px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .repo-button {
   display: flex;
@@ -143,6 +153,11 @@ body {
   font-size: 14px;
   background-color: #21262d;
 }
+.repo-button:hover {
+  border: 1px solid #aebbc9;
+  cursor: pointer;
+}
+
 .repo-button > p {
   margin: 0;
   padding: 0;
@@ -158,6 +173,104 @@ body {
 .user-info-section {
   border-bottom: 1px solid #21262d;
   display: grid;
+
   grid-template-columns: 0.7fr 1fr;
   grid-template-rows: 1fr 0.5fr;
+}
+.date {
+  position: absolute;
+  left: 10%;
+  top: 17%;
+  font-size: 15px;
+  color: #8b949e;
+}
+
+.line {
+  border: 1px solid #484f58;
+  display: block;
+  position: absolute;
+  height: 120px;
+  left: 8%;
+  top: 15%;
+}
+.main-content {
+  position: relative;
+  height: 400px;
+}
+.main-content > div > button {
+  position: absolute;
+  left: 5%;
+  top: 8%;
+}
+.line-icon {
+  color: #484f58;
+  position: absolute;
+  left: 7.4%;
+  top: 17%;
+}
+.commit-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-area: 1/ 1 / 2 / 3;
+}
+.commit-text {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  padding-top: 5px;
+  color: white;
+  font-weight: bold;
+}
+.commit {
+  border-radius: 5px;
+  border: 1px solid #484f58;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr;
+  grid-template-rows: 30px 30px;
+  align-items: center;
+  width: 80%;
+}
+
+.user-icon {
+  width: 20px;
+  height: 20px;
+}
+.user-commit-container {
+  margin-left: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  grid-area: 2 / 1 / 3 / 3;
+}
+.user-commit-time {
+  font-size: 12px;
+  color: #484f58;
+}
+.user-commit-name {
+  font-size: 12px;
+  color: white;
+}
+.commit-button {
+  transform: translateY(14px);
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+  border: 1px solid #44494e;
+  margin: none;
+  padding: 5px 15px 5px 15px;
+  color: #3e85f8;
+  font-size: 14px;
+  background-color: #21262d;
+}
+.commit-button:hover {
+  border: 1px solid #aebbc9;
+  cursor: pointer;
 }

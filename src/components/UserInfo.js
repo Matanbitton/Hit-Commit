@@ -10,6 +10,7 @@ import {
   faChartLine,
   faThumbTack,
   faEye,
+  faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import Repo from "./Repo";
 import RepoButton from "./RepoButton";
@@ -42,6 +43,7 @@ export default function UserInfo() {
         <Tab title="Wiki" icon={<FontAwesomeIcon icon={faBookOpen} />} />
         <Tab title="Security" icon={<FontAwesomeIcon icon={faShield} />} />
         <Tab title="Insights" icon={<FontAwesomeIcon icon={faChartLine} />} />
+        <Tab title="Settings" icon={<FontAwesomeIcon icon={faGear} />} />
       </div>
     </div>
   );
