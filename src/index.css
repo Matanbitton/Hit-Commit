@@ -202,12 +202,7 @@ body {
   left: 5%;
   top: 8%;
 }
-.line-icon {
-  color: #484f58;
-  position: absolute;
-  left: 7.4%;
-  top: 17%;
-}
+
 .commit-text-container {
   display: flex;
   justify-content: space-between;
@@ -273,4 +268,27 @@ body {
 .commit-button:hover {
   border: 1px solid #aebbc9;
   cursor: pointer;
+}
+
+.footer-container {
+  width: 100%;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-nav-button {
+  color: var(--dev-name-color);
+  background-color: transparent;
+  border: none;
+}
+.footer-nav > img {
+  opacity: 0.5;
+}
+.footer-nav > p {
+  color: #aebbc9;
+  font-size: 12px;
 }
