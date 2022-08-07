@@ -25,7 +25,7 @@ Maybe one day I will turn this into an API myself.
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a> 
    <a href="https://webpack.js.org/" > <img src="https://webpack.js.org/icon-pwa-512x512.d3dae4189855b3a72ff9.png" style = "width: 40px"> </a>
-    <a href="" > <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style = "width: 40px"> </a>
+    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" > <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style = "width: 40px"> </a>
 
 </p>
 
