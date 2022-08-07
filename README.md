@@ -1,4 +1,4 @@
-# WeatherApp
+# Hit Commit
 
 - 👨‍💻 See the live version of this project at **[Hit-Commit](https://matanbitton.github.io/Hit-Commit/)** (Not optimized for mobile yet)
 
