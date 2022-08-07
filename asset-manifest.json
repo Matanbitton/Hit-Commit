@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hit-Commit/static/css/main.75e045de.css",
+    "main.js": "/Hit-Commit/static/js/main.e1ca9682.js",
+    "static/media/user.png": "/Hit-Commit/static/media/user.f93109ccaf6090e65a5f.png",
+    "static/media/logo.png": "/Hit-Commit/static/media/logo.3544691aba1c09a7dd0c.png",
+    "index.html": "/Hit-Commit/index.html",
+    "main.75e045de.css.map": "/Hit-Commit/static/css/main.75e045de.css.map",
+    "main.e1ca9682.js.map": "/Hit-Commit/static/js/main.e1ca9682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75e045de.css",
+    "static/js/main.e1ca9682.js"
+  ]
+}
